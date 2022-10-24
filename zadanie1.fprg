@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s26971"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-24 02:14:27 PM"/>
+        <attribute name="created" value="czI2OTcxO0xBQjIxNlctMTI7MjAyMi0xMC0yNDswMjowODo1NCBQTTsyMjQ3"/>
+        <attribute name="edited" value="czI2OTcxO0xBQjIxNlctMTI7MjAyMi0xMC0yNDswMjoxNDoyNyBQTTsxOzIzNTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Wypisz ilo&#347;&#263; iteracji:&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="i" expression="0"/>
+            <while expression="i&lt;=n">
+                <output expression="i" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
